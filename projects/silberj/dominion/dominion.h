@@ -128,4 +128,12 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
 
+// TEST FUNCTIONS
+
+void adventurerTest(struct gameState *state);
+void council_roomTest(struct gameState *state, int handPos);
+void smithyTest(struct gameState *state, int handPos);
+void villageTest(struct gameState *state, int handPos);
+void minionTest(int choice1, int choice2, struct gameState *state, int handPos);
+   
 #endif
