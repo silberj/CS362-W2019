@@ -1,4 +1,4 @@
-/* CS261- Assignment 3 */
+/* CS362- Assignment 3 */
 /* Name: Jason Silber
  * Date: 2/10/2019
  */

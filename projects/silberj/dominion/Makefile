@@ -85,8 +85,5 @@ unittestresults: playdom player unittest1.c unittest2.c unittest3.c unittest4.c 
 clean:
 	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
 
-# cleanall: 
-	# rm -f *.o playdom.exe playdom player unittest1 cardtest1 player.exe *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
-
 cleanall: 
 	rm -f *.o playdom.exe playdom player player.exe unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
